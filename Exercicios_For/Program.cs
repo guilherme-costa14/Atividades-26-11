@@ -12,15 +12,23 @@ namespace Exercicios_For
         {
             //Exercicios exc = new Exercicios();
             //exc.Resultado();
-            Calculadora calc = new Calculadora();
-            double result = calc.Somar(3, 2);
-            Console.WriteLine("Adição: " + result);
-            result = calc.Subtrair(5.8, 9);
-            Console.WriteLine("Subtração: " + result);
-            result = calc.Dividir(6, 3);
-            Console.WriteLine("Divisão: " + result);
-            result = calc.Multiplicar(6.5, 3);
-            Console.WriteLine("Multiplicação: " + result);
+            while (true)
+            {
+                Console.WriteLine("Escolha uma operação: 1 - Adição, 2 - Subtrair, 3 - Divisão, 4 - Multiplicação");
+                Console.WriteLine("x - sair");
+                string opcao = Console.ReadLine();
+                if(opcao == "1")
+                {
+                    Console.WriteLine("Digite o primeiro número: ");
+                    int num1 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite o segundo número: ");
+                    int num2 = int.Parse(Console.ReadLine());
+
+                }
+
+            }
+
+            //Console.ReadKey(); 
         }
     }
 }

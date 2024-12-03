@@ -8,11 +8,6 @@ namespace Exercicios_For
 {
     internal class Exercicios
     {
-        public void Teste()
-        {
-            Console.WriteLine("Testando");
-        }
-
         public void Resultado()
         {
             //1.Escreva um programa que verifique se um número fornecido pelo usuário é positivo, negativo ou zero.
